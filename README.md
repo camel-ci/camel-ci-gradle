@@ -30,5 +30,5 @@ gradle test
 ### Running the application
 
 ```bash
-gradle -q hello
+gradle -q exec
 ```

@@ -1,15 +1,8 @@
 package com.ci.gradle;
 
-import java.util.Scanner;
-
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello World !");
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a year: ");
-        int useryear = scanner.nextInt();
-        System.out.println(Integer.toString(useryear) + " is" + estBissextile(useryear) + "bissextile");
-        scanner.close();
     }
 
     public static String estBissextile(int year) {
@@ -18,6 +11,5 @@ public class App {
         } else {
             return " not ";
         }
-
     }
 }
